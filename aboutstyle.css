@@ -1,0 +1,42 @@
+body,
+h1,
+p,
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #161414;
+  color: #f7f4f4;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #4d97e2;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+footer {
+  padding: 10px;
+  background-color: #4d97e2;
+  color: #000000;
+  text-align: center;
+}
